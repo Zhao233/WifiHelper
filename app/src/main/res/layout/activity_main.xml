@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+    android:background="#f2f2f7"
+    android:weightSum="1">
+
+    <com.example.admin.wifihelper.Main.GridView.DragGridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/gridView"
+        android:numColumns="3"
+        android:clickable="true"
+        android:horizontalSpacing="50dp">
+    </com.example.admin.wifihelper.Main.GridView.DragGridView>
+</LinearLayout>
